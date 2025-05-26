@@ -77,7 +77,7 @@ dbUser[1].email
 // this return a array
 console.log("Keys:", Object.keys(Office));
 
-// you also access the vale like wise, this also return a array
+// you also access the value like wise, this also return a array
 console.log("Values:", Object.values(Office));
 
 // entries() -> this function simple convert the each key value pairs into arrays pair

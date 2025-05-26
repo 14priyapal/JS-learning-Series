@@ -1,7 +1,7 @@
 /************************************JS Objects*************************************
 The Object type represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities. 
 Objects can be created using the Object() constructor or the object initializer / literal syntax. */
-//we will talk about object contructor later
+//we will talk about object constructor later
 
 
 // creating object by literal method
@@ -15,10 +15,10 @@ const JsUser = {
 }
 
 // to access the object values
-//1. method
-console.log(JsUser["full name"])
+//1. method (by using .)
+console.log(JsUser.address)
 
-//2. method to access the value of object
+//2. method to access the value of object (by using [])
 console.log(JsUser["address"])
 
 
